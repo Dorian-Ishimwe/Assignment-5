@@ -8,7 +8,7 @@ function area () {
   number = document.getElementById('radius').value
   number = parseInt(number)
 
-  number = Math.pow(number, 2) * 3.14 
+  number = Math.pow(number, 2) * 3.14
   document.getElementById('answer').innerHTML = number
 }
 
